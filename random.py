@@ -5,7 +5,7 @@ doraemon = pygame.image.load("doraemon.jpg")
 color=[255,255,255]
 screen.fill(color)
 x,y = 0,0
-while 1:
+while ture:
 	pygame.draw.rect(screen,color,[x,y,120,90],0)
 	x = random.randint(0,1200)
 	y = random.randint(0,600)
