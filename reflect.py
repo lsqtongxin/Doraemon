@@ -7,7 +7,7 @@ doraemon2= pygame.image.load("doraemon2.jpg")
 color=[255,255,255]
 screen.fill(color)
 x,y = 0,0
-x_speed = 5
+x_speed = 10
 y_speed = 90
 direction =1
 while 1:
