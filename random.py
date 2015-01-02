@@ -1,4 +1,4 @@
-import pygame,sys,random
+import pygame,random
 pygame.init()
 screen = pygame.display.set_mode([1200,600])
 doraemon = pygame.image.load("doraemon.jpg")
