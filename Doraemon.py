@@ -1,11 +1,12 @@
 import pygame
 from pygame.locals import *
 pygame.init()
-screen = pygame.display.set_mode((640,480),0,32)
+screen = pygame.display.set_mode((640,480),FULLSCREEN,32)
 screen.fill([255,255,255])
 pygame.display.set_caption("Doraemon Game")
-doraemon = pygame.image.load("resources/images/doraemon.jpg")
+doraemon = pygame.image.load("resources/images/doraemon.jpg").convert()
 while True:
+	screen.fill([255,255,255])
 	for event in pygame.event.get():
 		if event.type == QUIT:
 			exit()
@@ -14,3 +15,4 @@ while True:
 	y -= doraemon.get_height()/2	
 	screen.blit(doraemon,(x,y))
 	pygame.display.flip();
+	pygame.time.delay(20)
