@@ -2,7 +2,6 @@ import pygame,sys,random
 pygame.init()
 screen = pygame.display.set_mode([1200,600])
 doraemon = pygame.image.load("doraemon.jpg")
-doraemon2= pygame.image.load("doraemon2.jpg")
 color=[255,255,255]
 screen.fill(color)
 x,y = 0,0
