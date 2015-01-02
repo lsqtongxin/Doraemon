@@ -2,8 +2,8 @@ import pygame,sys
 pygame.init()
 #the resolution is 1200x600
 screen = pygame.display.set_mode([1200,600])
-doraemon = pygame.image.load("doraemon.jpg")
-doraemon2= pygame.image.load("doraemon2.jpg")
+doraemon = pygame.image.load("resources/images/doraemon.jpg")
+doraemon2= pygame.image.load("resources/images/doraemon2.jpg")
 color=[255,255,255]
 screen.fill(color)
 x,y = 0,0
