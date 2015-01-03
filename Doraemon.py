@@ -1,7 +1,7 @@
 import pygame
 from pygame.locals import *
 pygame.init()
-screen = pygame.display.set_mode((640,480),FULLSCREEN,32)
+screen = pygame.display.set_mode((640,480),NOFRAME,32)
 screen.fill([255,255,255])
 pygame.display.set_caption("Doraemon Game")
 doraemon = pygame.image.load("resources/images/doraemon.jpg").convert()
