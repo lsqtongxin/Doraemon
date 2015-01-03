@@ -2,7 +2,7 @@ import pygame
 from pygame.locals import *
 
 pygame.init()
-SCREEN_SIZE = (640,480)
+SCREEN_SIZE = [640,480]
 screen = pygame.display.set_mode(SCREEN_SIZE,0,32)
 
 font = pygame.font.SysFont("arial",16)
