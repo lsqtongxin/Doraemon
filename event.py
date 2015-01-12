@@ -2,7 +2,7 @@ import pygame,time
 from pygame.locals import *
 
 pygame.init()
-SCREEN_SIZE = [800,600]
+SCREEN_SIZE = [480,240]
 screen = pygame.display.set_mode(SCREEN_SIZE,0,32)
 
 font = pygame.font.SysFont("arial",16)
